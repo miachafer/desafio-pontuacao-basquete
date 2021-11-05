@@ -1,10 +1,11 @@
 # Problema
 
-Maria é jogadora de basquete e criou uma tabela para registrar suas pontuações. A cada jogo
-ela anota quantos pontos conseguiu marcar e atualiza o mínimo e o máximo da temporada. Ela
-anota também nesta tabela quantas vezes quebrou o recorde mínimo e quantas vezes quebrou
-o recorde máximo. Os placares são sempre números inteiros e positivos menores que 1000
-Depois de 4 jogos a tabela está assim:
+- Maria é jogadora de basquete e criou uma tabela para registrar suas pontuações. 
+- A cada jogo ela anota quantos pontos conseguiu marcar e atualiza o mínimo e o máximo da temporada.
+- Ela anota também nesta tabela quantas vezes quebrou o recorde mínimo e quantas vezes quebrou
+o recorde máximo. 
+- Os placares são sempre números inteiros e positivos menores que 1000.
+- Depois de 4 jogos a tabela está assim:
 
 Jogo|Placar|Mín. temporada.      
 ----|------|----------      
@@ -13,7 +14,23 @@ Jogo|Placar|Mín. temporada.
 3   |10    |10        
 4   |24    |10        
 
-  
+Mín. temporada|Máx. temporada
+--------------|--------------
+12            |12
+12            |24
+10            |24
+10            |24
+
+Quebra recorde mín.|Quebra recorde máx.
+-------------------|------------------
+0                  |0
+0                  |1
+1                  |1
+1                  |1
+
+## Desafio
+- Crie um programa na sua linguagem de programação preferida para facilitar o
+acompanhamento de resultados da Maria.
 
 ## Requisitos mínimos
 - Possibilidade de inserção de novos jogos;
@@ -23,4 +40,4 @@ Jogo|Placar|Mín. temporada.
 - Interface para consulta dos dados;
 - Testes unitários;
 - Controle de versão Git;
-- Documentação do código;
+- Documentação do código.
