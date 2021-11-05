@@ -7,12 +7,12 @@ o recorde máximo.
 - Os placares são sempre números inteiros e positivos menores que 1000.
 - Depois de 4 jogos a tabela está assim:
 
-Jogo|Placar|Mín. temporada.      
-----|------|----------      
-1   |12    |12        
-2   |24    |12        
-3   |10    |10        
-4   |24    |10        
+Jogo|Placar      
+----|------      
+1   |12            
+2   |24            
+3   |10            
+4   |24            
 
 Mín. temporada|Máx. temporada
 --------------|--------------
