@@ -39,5 +39,12 @@ def basquete():
                  'Quebra recorde min.': quebra_min, 'Quebra recorde máx.': quebra_max}
     tabela.append(novo_jogo)
     print(tabela)
+    reiniciar = input('Deseja adicionar o placar de um novo jogo? [s/n] ')
+    if reiniciar == 's':
+        basquete()
+    else:
+        print(tabela)
+        print('Saindo...')
+        exit()
 
 basquete()
