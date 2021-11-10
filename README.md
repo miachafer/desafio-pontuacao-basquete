@@ -7,26 +7,7 @@ o recorde máximo.
 - Os placares são sempre números inteiros e positivos menores que 1000.
 - Depois de 4 jogos a tabela está assim:
 
-Jogo|Placar      
-----|------      
-1   |12            
-2   |24            
-3   |10            
-4   |24            
-
-Mín. temporada|Máx. temporada
---------------|--------------
-12            |12
-12            |24
-10            |24
-10            |24
-
-Quebra recorde mín.|Quebra recorde máx.
--------------------|------------------
-0                  |0
-0                  |1
-1                  |1
-1                  |1
+![Tabela](img/tabela-basquete.jpg)
 
 ## Desafio
 - Crie um programa na sua linguagem de programação preferida para facilitar o
