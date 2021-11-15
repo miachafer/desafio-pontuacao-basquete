@@ -50,31 +50,19 @@ def basquete():
 
         """Filtrando a chave 'Min temp' no último último jogo da tabela"""
         if chave == 'Min_temp':
-            if placar >= valor:
-                min_temporada = valor
-            else:
-                min_temporada = placar
+            min_temporada = valor if placar >= valor else placar
 
         """Filtrando a chave 'Max temp' no último último jogo da tabela"""
         if chave == 'Max_temp':
-            if placar > valor:
-                max_temporada = placar
-            else:
-                max_temporada = valor
+            max_temporada = placar if placar > valor else valor
 
         """Filtrando a chave 'Recorde min' no último último jogo da tabela"""
         if chave == 'Recorde_min':
-            if min_temporada == placar:
-                quebra_min = valor + 1
-            else:
-                quebra_min = valor
+            quebra_min = valor + 1 if min_temporada == placar else valor
 
         """Filtrando a chave 'Recorde max' no último último jogo da tabela"""
         if chave == 'Recorde_max':
-            if max_temporada == placar:
-                quebra_max = valor + 1
-            else:
-                quebra_max = valor
+            quebra_max = valor + 1 if max_temporada == placar else valor
 
     novo_jogo = {'Jogo': jogo,
                  'Placar': placar,
